@@ -34,7 +34,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/mermaid/dist/mermaid.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "afdc8f54-600d-40ef-ae22-52de49f6e8d2"
   }
 }

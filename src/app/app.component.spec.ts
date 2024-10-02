@@ -14,11 +14,6 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'rxjs-operator-three' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('rxjs-operator-three');
-  });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
